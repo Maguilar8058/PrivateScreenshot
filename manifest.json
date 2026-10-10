@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Private Screenshot",
   "description": "Capture screenshots and hide common personal data before sharing.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "action": {
     "default_title": "Private Screenshot",
     "default_popup": "popup.html",
@@ -22,7 +22,10 @@
   "permissions": ["activeTab", "storage"],
   "browser_specific_settings": {
     "gecko": {
-      "id": "private-screenshot@maguilar8058.github.io"
+      "id": "private-screenshot@maguilar8058.github.io",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
     }
   }
 }
