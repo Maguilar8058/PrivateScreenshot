@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "Private Screenshot",
+  "description": "Capture screenshots and hide common personal data before sharing.",
+  "version": "0.1.0",
+  "action": {
+    "default_title": "Private Screenshot",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon-16.png",
+      "32": "icons/icon-32.png",
+      "48": "icons/icon-48.png",
+      "128": "icons/icon-128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon-16.png",
+    "32": "icons/icon-32.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  },
+  "permissions": ["activeTab", "storage"],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "private-screenshot@maguilar8058.github.io"
+    }
+  }
+}
